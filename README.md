@@ -35,10 +35,9 @@ The Floor Plan Admin System is a full-stack web application designed for managin
 The application provides an intuitive drag-and-drop interface for creating and editing floor plans. Users can add, move, and configure rooms and spaces visually.
 
 **Screenshot Placeholder: Floor Plan Editor Interface**
-```
+
 ![WhatsApp Image 2025-11-23 at 18 55 09_a802f9ba](https://github.com/user-attachments/assets/6e38fe04-cb40-4fa6-be1f-6aa7964721c7)
 
-```
 
 **Key Functionality:**
 - Drag-and-drop room placement
@@ -51,10 +50,10 @@ The application provides an intuitive drag-and-drop interface for creating and e
 Multiple administrators can work on the same floor plan simultaneously. The system uses WebSocket connections to broadcast changes in real-time.
 
 **Screenshot Placeholder: Real-Time Collaboration**
-```
+
 ![WhatsApp Image 2025-11-23 at 18 55 09_a802f9ba](https://github.com/user-attachments/assets/b1b43743-40c1-45e8-abf8-25fedf50dc8a)
 
-```
+
 
 **Implementation Details:**
 - Socket.IO for WebSocket communication
@@ -66,10 +65,10 @@ Multiple administrators can work on the same floor plan simultaneously. The syst
 The application maintains full functionality even when offline. All changes are queued locally and automatically synchronized when the connection is restored.
 
 **Screenshot Placeholder: Offline Indicator**
-```
+
 ![WhatsApp Image 2025-11-23 at 18 55 36_9d9efc90](https://github.com/user-attachments/assets/1ab49621-d16c-43ca-980c-c8ef7408038e)
 
-```
+
 
 **Offline Features:**
 - Local storage of pending changes
@@ -82,10 +81,9 @@ The application maintains full functionality even when offline. All changes are 
 Every change to floor plans is tracked with complete version history. Administrators can view, compare, and revert to previous versions.
 
 **Screenshot Placeholder: Version History**
-```
+
 ![WhatsApp Image 2025-11-23 at 18 56 05_6bac105b](https://github.com/user-attachments/assets/228d0f47-cbdf-45f4-a71f-15d63e3c45fa)
 
-```
 
 **Audit Capabilities:**
 - Complete change history
@@ -98,10 +96,9 @@ Every change to floor plans is tracked with complete version history. Administra
 The booking system provides intelligent suggestions based on room availability, capacity, and user preferences.
 
 **Screenshot Placeholder: Booking Interface**
-```
+
 ![WhatsApp Image 2025-11-23 at 18 56 43_81207dc0](https://github.com/user-attachments/assets/b0714ff6-492c-427a-b979-d4d3f548a259)
 
-```
 
 **Booking Features:**
 - Room availability checking
@@ -114,10 +111,10 @@ The booking system provides intelligent suggestions based on room availability, 
 Secure JWT-based authentication with role-based access control (Admin, Editor, Viewer roles).
 
 **Screenshot Placeholder: Login/Register**
-```
+
 ![WhatsApp Image 2025-11-23 at 18 57 37_e7861e8b](https://github.com/user-attachments/assets/41298d33-42b4-4c40-a54a-e5203a1ba71a)
 
-```
+
 
 ---
 
