@@ -250,10 +250,6 @@ npm start
 
 The backend server will start on `http://localhost:5000` (or the port specified in your `.env` file).
 
-**Screenshot Placeholder: Backend Running**
-```
-[SCREENSHOT: Backend server logs showing successful startup]
-```
 
 ### Step 5: Frontend Setup
 
@@ -286,10 +282,8 @@ The frontend application will open at `http://localhost:3000`.
 4. Verify that the editor loads correctly
 
 **Screenshot Placeholder: Application Homepage**
-```
 ![WhatsApp Image 2025-11-23 at 18 57 29_a5d37f70](https://github.com/user-attachments/assets/57db97e9-f66c-4f81-b9c2-b6965c0b4162)
 
-```
 
 ---
 
