@@ -36,7 +36,8 @@ The application provides an intuitive drag-and-drop interface for creating and e
 
 **Screenshot Placeholder: Floor Plan Editor Interface**
 ```
-[SCREENSHOT: Floor Plan Editor showing drag-and-drop interface with rooms and connections]
+![WhatsApp Image 2025-11-23 at 18 55 09_a802f9ba](https://github.com/user-attachments/assets/6e38fe04-cb40-4fa6-be1f-6aa7964721c7)
+
 ```
 
 **Key Functionality:**
@@ -51,7 +52,8 @@ Multiple administrators can work on the same floor plan simultaneously. The syst
 
 **Screenshot Placeholder: Real-Time Collaboration**
 ```
-[SCREENSHOT: Multiple users editing the same floor plan with live updates visible]
+![WhatsApp Image 2025-11-23 at 18 55 09_a802f9ba](https://github.com/user-attachments/assets/b1b43743-40c1-45e8-abf8-25fedf50dc8a)
+
 ```
 
 **Implementation Details:**
@@ -65,7 +67,8 @@ The application maintains full functionality even when offline. All changes are 
 
 **Screenshot Placeholder: Offline Indicator**
 ```
-[SCREENSHOT: Offline indicator showing queued changes and sync status]
+![WhatsApp Image 2025-11-23 at 18 55 36_9d9efc90](https://github.com/user-attachments/assets/1ab49621-d16c-43ca-980c-c8ef7408038e)
+
 ```
 
 **Offline Features:**
@@ -80,7 +83,8 @@ Every change to floor plans is tracked with complete version history. Administra
 
 **Screenshot Placeholder: Version History**
 ```
-[SCREENSHOT: Version history panel showing timeline of changes with user information]
+![WhatsApp Image 2025-11-23 at 18 56 05_6bac105b](https://github.com/user-attachments/assets/228d0f47-cbdf-45f4-a71f-15d63e3c45fa)
+
 ```
 
 **Audit Capabilities:**
@@ -95,7 +99,8 @@ The booking system provides intelligent suggestions based on room availability, 
 
 **Screenshot Placeholder: Booking Interface**
 ```
-[SCREENSHOT: Booking panel with room suggestions and availability calendar]
+![WhatsApp Image 2025-11-23 at 18 56 43_81207dc0](https://github.com/user-attachments/assets/b0714ff6-492c-427a-b979-d4d3f548a259)
+
 ```
 
 **Booking Features:**
@@ -110,7 +115,8 @@ Secure JWT-based authentication with role-based access control (Admin, Editor, V
 
 **Screenshot Placeholder: Login/Register**
 ```
-[SCREENSHOT: Authentication interface with login and registration forms]
+![WhatsApp Image 2025-11-23 at 18 57 37_e7861e8b](https://github.com/user-attachments/assets/41298d33-42b4-4c40-a54a-e5203a1ba71a)
+
 ```
 
 ---
@@ -284,7 +290,8 @@ The frontend application will open at `http://localhost:3000`.
 
 **Screenshot Placeholder: Application Homepage**
 ```
-[SCREENSHOT: Application homepage/dashboard after successful login]
+![WhatsApp Image 2025-11-23 at 18 57 29_a5d37f70](https://github.com/user-attachments/assets/57db97e9-f66c-4f81-b9c2-b6965c0b4162)
+
 ```
 
 ---
