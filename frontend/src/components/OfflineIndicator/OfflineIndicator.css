@@ -1,0 +1,79 @@
+.offline-indicator {
+  padding: 0.75rem 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.offline-indicator.online {
+  background: #d4edda;
+  color: #155724;
+}
+
+.offline-indicator.offline {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.indicator-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.status-dot.online {
+  background: #28a745;
+}
+
+.status-dot.offline {
+  background: #dc3545;
+}
+
+.sync-status {
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.queue-count {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+}
+
+/* Responsive styles for smaller viewports */
+@media (max-width: 960px) {
+  .offline-indicator {
+    padding: 0.6rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  .indicator-content {
+    gap: 0.4rem;
+    flex-wrap: wrap;
+  }
+
+  .queue-count {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.4rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .offline-indicator {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.8rem;
+  }
+
+  .sync-status {
+    font-size: 0.75rem;
+  }
+}

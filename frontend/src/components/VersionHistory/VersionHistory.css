@@ -1,0 +1,197 @@
+.version-history {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.version-header {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.version-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.btn-close-sidebar {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #666;
+  line-height: 1;
+}
+
+.btn-close-sidebar:hover {
+  color: #333;
+}
+
+.version-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+.version-item {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+  background: #f8f9fa;
+  border-radius: 4px;
+  position: relative;
+}
+
+.version-item.current {
+  background: #e3f2fd;
+  border: 2px solid #1976d2;
+}
+
+.version-number {
+  font-weight: bold;
+  color: #667eea;
+  font-size: 0.9rem;
+}
+
+.version-info {
+  flex: 1;
+}
+
+.version-author {
+  font-weight: 500;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.version-time {
+  font-size: 0.75rem;
+  color: #888;
+  margin: 0.25rem 0;
+}
+
+.version-summary {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.25rem;
+}
+
+.change-type {
+  display: inline-block;
+  padding: 0.15rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.7rem;
+  margin-top: 0.25rem;
+  font-weight: 500;
+}
+
+.change-type.create {
+  background: #d4edda;
+  color: #155724;
+}
+
+.change-type.update {
+  background: #d1ecf1;
+  color: #0c5460;
+}
+
+.change-type.rollback {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.change-type.merge {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.btn-rollback {
+  background: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn-rollback:hover {
+  background: #138496;
+}
+
+/* Responsive styles for smaller viewports */
+@media (max-width: 960px) {
+  .version-header {
+    padding: 0.75rem;
+  }
+
+  .version-header h3 {
+    font-size: 1rem;
+  }
+
+  .version-list {
+    padding: 0.75rem;
+  }
+
+  .version-item {
+    padding: 0.6rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .version-number {
+    font-size: 0.85rem;
+  }
+
+  .version-author {
+    font-size: 0.85rem;
+  }
+
+  .version-time {
+    font-size: 0.7rem;
+  }
+
+  .version-summary {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .version-header {
+    padding: 0.5rem;
+  }
+
+  .version-header h3 {
+    font-size: 0.95rem;
+  }
+
+  .version-list {
+    padding: 0.5rem;
+  }
+
+  .version-item {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .version-number {
+    font-size: 0.8rem;
+  }
+
+  .version-author {
+    font-size: 0.8rem;
+  }
+
+  .version-summary {
+    font-size: 0.75rem;
+  }
+
+  .btn-rollback {
+    padding: 0.2rem 0.4rem;
+    font-size: 0.85rem;
+  }
+}

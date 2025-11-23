@@ -1,0 +1,209 @@
+.floor-plan-editor {
+  height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+}
+
+.editor-header {
+  background: white;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-back {
+  padding: 0.5rem 1rem;
+  background: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-back:hover {
+  background: #5a6268;
+}
+
+.editor-header h2 {
+  flex: 1;
+  margin: 0;
+  color: #333;
+}
+
+.editor-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn-action {
+  padding: 0.5rem 1rem;
+  background: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-action:hover {
+  background: #138496;
+}
+
+.btn-save {
+  padding: 0.5rem 1.5rem;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn-save:hover {
+  background: #218838;
+}
+
+.editor-content {
+  flex: 1;
+  display: flex;
+  position: relative;
+}
+
+.editor-canvas {
+  flex: 1;
+  background: #f8f9fa;
+}
+
+.editor-canvas.with-sidebar {
+  flex: 0 0 70%;
+}
+
+.editor-sidebar {
+  flex: 0 0 30%;
+  background: white;
+  border-left: 1px solid #ddd;
+  overflow-y: auto;
+}
+
+.image-opacity-control {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+.image-opacity-control label {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.image-opacity-control input[type="range"] {
+  width: 80px;
+}
+
+.image-opacity-control span {
+  font-size: 0.875rem;
+  color: #333;
+  min-width: 35px;
+}
+
+/* Responsive styles for smaller viewports (50% screen width) */
+@media (max-width: 960px) {
+  .editor-header {
+    padding: 0.75rem 1rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .editor-header h2 {
+    font-size: 1.1rem;
+    width: 100%;
+    order: 1;
+  }
+
+  .btn-back {
+    order: 2;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.85rem;
+  }
+
+  .editor-actions {
+    order: 3;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .btn-action,
+  .btn-save {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+
+  .image-opacity-control {
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    padding: 0.2rem 0.4rem;
+  }
+
+  .image-opacity-control input[type="range"] {
+    width: 60px;
+  }
+
+  .editor-canvas.with-sidebar {
+    flex: 0 0 100%;
+  }
+
+  .editor-sidebar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 280px;
+    max-width: 85%;
+    z-index: 100;
+    box-shadow: -2px 0 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .editor-content {
+    position: relative;
+  }
+}
+
+@media (max-width: 640px) {
+  .editor-header {
+    padding: 0.5rem 0.75rem;
+  }
+
+  .editor-header h2 {
+    font-size: 1rem;
+  }
+
+  .btn-action,
+  .btn-save,
+  .btn-back {
+    padding: 0.35rem 0.6rem;
+    font-size: 0.8rem;
+  }
+
+  .editor-actions {
+    gap: 0.3rem;
+  }
+
+  .image-opacity-control {
+    font-size: 0.75rem;
+  }
+
+  .image-opacity-control input[type="range"] {
+    width: 50px;
+  }
+
+  .editor-sidebar {
+    width: 100%;
+    max-width: 100%;
+  }
+}
